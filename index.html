@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html class="dark" lang="es"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -6,9 +7,8 @@
 <!-- Google Fonts: Oswald (Headlines/Labels) & Inter (Body) -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Oswald:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <!-- Material Symbols Outlined -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <!-- Tailwind CSS v3 -->
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -95,20 +95,6 @@
             "headline-md": ["Oswald"],
             "headline-lg-mobile": ["Oswald"],
             "body-md": ["Inter"]
-          },
-          "fontSize": {
-            "headline-sm": ["18px", { "lineHeight": "22px", "letterSpacing": "0.03em", "fontWeight": "600" }],
-            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
-            "display-hero-mobile": ["38px", { "lineHeight": "42px", "letterSpacing": "0.02em", "fontWeight": "700" }],
-            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" }],
-            "headline-lg": ["36px", { "lineHeight": "40px", "letterSpacing": "0.01em", "fontWeight": "700" }],
-            "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
-            "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.06em", "fontWeight": "600" }],
-            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "500" }],
-            "display-hero": ["56px", { "lineHeight": "60px", "letterSpacing": "0.02em", "fontWeight": "700" }],
-            "headline-md": ["24px", { "lineHeight": "28px", "letterSpacing": "0.02em", "fontWeight": "600" }],
-            "headline-lg-mobile": ["28px", { "lineHeight": "32px", "letterSpacing": "0.01em", "fontWeight": "700" }],
-            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
           }
         },
       },
@@ -145,15 +131,15 @@
 </head>
 <body class="bg-surface-container-lowest text-on-surface font-body-md antialiased min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container">
 <!-- TOP APP BAR / HEADER -->
-<header class="bg-surface-container-lowest/90 backdrop-blur-md dark:bg-surface-container-lowest/90 docked full-width top-0 sticky z-50 shadow-sm border-b border-outline-variant/30">
-<div class="max-w-7xl mx-auto px-6 h-16 md:h-20 flex items-center justify-between">
+<header class="bg-surface-container-lowest/90 backdrop-blur-md docked full-width top-0 sticky z-50 shadow-sm border-b border-outline-variant/30">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 h-14 sm:h-16 md:h-20 flex items-center justify-between">
 <!-- Brand Logo / Identity -->
-<a class="flex items-center gap-3 active:scale-[0.98] transition-transform duration-100 group" href="javascript:void(0)" onclick="switchTab('inicio')">
-<img alt="B 308 Training Logo" class="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEOHGjdyLcC5x7kh1nkZa2zKo9CCiDc6RjDa-rMpQoXIGxA9Hsv0tCOZrdh8bvnitB-GYQQ9iItehzKFAl9BXMkVfUkRNXn88Cl1ltEJZ6vmmkytPIJAKksv0auGH1vT5yV9eX-2dofn_pyxBGciBArRQS2uiTBtEMINnmP8rIIXz9KyBRcxhHE2UgHaouNKa5tB2_m529zblhkttWBB-gSyHrjFYRXIfDdHRRWJBXHxKC208nbKCegOkvniNx5X8yLlw"/>
-<span class="text-headline-md font-headline-md tracking-wider font-bold text-on-surface dark:text-on-surface">B 308 TRAINING</span>
+<a class="flex items-center gap-2 sm:gap-3 active:scale-[0.98] transition-transform duration-100 group" href="javascript:void(0)" onclick="switchTab('inicio')">
+<img alt="B 308 Training Logo" class="h-7 sm:h-9 md:h-11 w-auto object-contain transition-transform duration-200 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH9AQF5t8g8rDMr7HUmMV9RGxXBbX4fCsBiqfZBJFnQ10MA2Z0z-HfwUzURiiQa7MUOthhv7yI3U8siX5PUSHrBQcOnPxpvdxKCm7q7BcEKmPoZRDSP66xEUMbTyM89Whqf31AGzHiqNvQD8csNBhd3AmvA9F3_2cJG7pWOD48G-9TJOzhDl3fBbM_tXALsnaEUt3H0_Q0ueefvpjA4G8B9wHRsR8Rbh4SlslMhttcDlNHkKs8-dPWId8S2hRaxOKXGqk"/>
+<span class="text-lg sm:text-xl md:text-2xl font-headline-md tracking-wider font-bold text-on-surface">B 308 TRAINING</span>
 </a>
 <!-- Desktop Navigation Links (Tab Switcher) -->
-<nav aria-label="Navegación principal" class="hidden md:flex items-center gap-8 text-label-lg font-label-lg">
+<nav aria-label="Navegación principal" class="hidden md:flex items-center gap-6 lg:gap-8 text-label-lg font-label-lg">
 <button class="text-primary border-b-2 border-primary pb-1 font-semibold transition-all duration-150 active:scale-[0.98]" id="nav-desktop-inicio" onclick="switchTab('inicio')">
           Inicio
         </button>
@@ -165,28 +151,29 @@
         </button>
 </nav>
 <!-- Trailing Action Cluster (Desktop) -->
-<div class="hidden lg:flex items-center gap-4">
+<div class="hidden lg:flex items-center gap-3 xl:gap-4">
 <!-- Instagram Link -->
-<a class="p-2.5 rounded text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors active:scale-[0.98]" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank" title="Instagram @b308training">
+<a class="p-2 rounded text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors active:scale-[0.98]" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank" title="Instagram @b308training">
 <span class="material-symbols-outlined text-primary text-xl">photo_camera</span>
 </a>
 <!-- Booksy Quick CTA -->
-<a class="px-4 py-2 border border-outline-variant/40 rounded text-label-md font-label-md text-on-surface hover:border-primary hover:text-primary transition-all active:scale-[0.98] flex items-center gap-1.5" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
+<a class="px-3.5 py-1.5 xl:px-4 xl:py-2 border border-outline-variant/40 rounded text-label-md font-label-md text-on-surface hover:border-primary hover:text-primary transition-all active:scale-[0.98] flex items-center gap-1.5" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
 <span class="material-symbols-outlined text-secondary text-base">event_available</span>
 <span>Reservar Booksy</span>
 </a>
 <!-- Primary WhatsApp Direct Action -->
-<a class="bg-primary-container text-on-primary-container hover:bg-primary px-4 py-2 rounded font-label-lg text-label-lg tracking-wider font-bold transition-all duration-150 neon-border-pulse hover:shadow-lg active:scale-[0.98] flex items-center gap-2" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
+<a class="bg-primary-container text-on-primary-container hover:bg-primary px-3.5 py-1.5 xl:px-4 xl:py-2 rounded font-label-lg text-label-lg tracking-wider font-bold transition-all duration-150 neon-border-pulse hover:shadow-lg active:scale-[0.98] flex items-center gap-2" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
 <span class="material-symbols-outlined text-lg">chat</span>
 <span>WhatsApp 614 66 03 88</span>
 </a>
 </div>
-<!-- Mobile Hamburger Button -->
-<div class="flex items-center gap-2 md:hidden">
-<a class="bg-primary-container text-on-primary-container p-2 rounded flex items-center justify-center" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-lg">chat</span>
+<!-- Mobile / Tablet Right Cluster -->
+<div class="flex items-center gap-1.5 sm:gap-2 lg:hidden">
+<a class="bg-primary-container text-on-primary-container px-2.5 py-1.5 sm:px-3 sm:py-2 rounded flex items-center justify-center gap-1 text-xs sm:text-sm font-bold" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base sm:text-lg">chat</span>
+<span class="hidden sm:inline font-label-md">WhatsApp</span>
 </a>
-<button aria-label="Abrir menú" class="p-2 text-on-surface hover:text-primary transition-colors focus:outline-none" id="mobile-menu-open-btn" onclick="toggleDrawer(true)">
+<button aria-label="Abrir menú" class="p-1.5 sm:p-2 text-on-surface hover:text-primary transition-colors focus:outline-none" id="mobile-menu-open-btn" onclick="toggleDrawer(true)">
 <span class="material-symbols-outlined text-2xl">menu</span>
 </button>
 </div>
@@ -194,16 +181,16 @@
 </header>
 <!-- MOBILE SIDE DRAWER (SideNavBar) -->
 <div class="fixed inset-0 bg-surface-container-lowest/80 backdrop-blur-sm z-50 hidden transition-opacity" id="drawer-backdrop" onclick="toggleDrawer(false)"></div>
-<aside class="fixed inset-y-0 right-0 w-80 max-w-[85vw] z-50 flex flex-col justify-between bg-surface-container-lowest dark:bg-surface-container-lowest border-l border-outline-variant/30 shadow-2xl translate-x-full transition-transform duration-200" id="mobile-drawer">
-<div class="h-full p-6 flex flex-col justify-between">
+<aside class="fixed inset-y-0 right-0 w-80 max-w-[85vw] z-50 flex flex-col justify-between bg-surface-container-lowest border-l border-outline-variant/30 shadow-2xl translate-x-full transition-transform duration-200" id="mobile-drawer">
+<div class="h-full p-5 sm:p-6 flex flex-col justify-between">
 <!-- Drawer Header -->
 <div>
-<div class="flex items-center justify-between pb-6 border-b border-outline-variant/20">
+<div class="flex items-center justify-between pb-4 sm:pb-6 border-b border-outline-variant/20">
 <div class="flex items-center gap-3">
-<img alt="B 308 Training Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIFq1V4jhGBd0GD8jDkm8m_eo_r3EDwYYtA7732-phGfj7L7zlLHDIOJzT6EOYeFTdOo_SAzo6etnXYsa0VuhX_zHuNyuDZQNW6OySlfFqBo0dP47YK7nPfAJbWFEg_eqFHIf4-LSKuZtYcVYoE7ArvWWhPseytlP8tvxrTvqpc-elbjbkTxJjJyNk2-2H7KrNyafURpxn0HrufuxHP2n2KtWADYFltO_4Jgc4kNgcMvkIIK3YoePqLIUlpP0k7NLHLiA"/>
+<img alt="B 308 Training Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVDeGTNMxlGokbg3Iisol-CngSI2sFR66ch7rtYjVk8Qn4x0zH_hNYeewdERqkEq8f432r6W10-59s0xF-vkfdAz-Rt5zHjUE6G289VaW2leogVKEXxiDpxUGMjsKAGwBdNnIkLBimsvoxKw2KVYTYQOEXVBolYO6nlCDdDJxYz5WBa-61pysDYO7z_hRr635ecl1oKP84M6nlVNai2nJFxFkNlyPm-uc-J40S_vTKpny1gtfnwdZeMyo5k4YnNibttok"/>
 <div>
-<p class="text-headline-sm font-headline-sm font-bold text-primary dark:text-primary">B 308 TRAINING</p>
-<p class="text-label-sm font-label-sm text-on-surface-variant">Calle Montoro 6, La Negrilla, Sevilla</p>
+<p class="text-headline-sm font-headline-sm font-bold text-primary">B 308 TRAINING</p>
+<p class="text-xs text-on-surface-variant">Polígono La Negrilla, Sevilla</p>
 </div>
 </div>
 <button aria-label="Cerrar menú" class="p-1 text-on-surface-variant hover:text-on-surface" onclick="toggleDrawer(false)">
@@ -211,33 +198,33 @@
 </button>
 </div>
 <!-- Drawer Navigation Tabs -->
-<nav class="mt-6 flex flex-col gap-2">
-<button class="flex items-center gap-4 px-4 py-3 bg-primary/10 text-primary border-l-2 border-primary font-semibold text-label-lg font-label-lg active:scale-[0.98] transition-all" id="drawer-nav-inicio" onclick="switchTab('inicio'); toggleDrawer(false);">
-<span class="material-symbols-outlined">home</span>
+<nav class="mt-4 sm:mt-6 flex flex-col gap-1.5">
+<button class="flex items-center gap-3 px-3 py-2.5 sm:px-4 sm:py-3 bg-primary/10 text-primary border-l-2 border-primary font-semibold text-sm sm:text-base font-label-lg active:scale-[0.98] transition-all" id="drawer-nav-inicio" onclick="switchTab('inicio'); toggleDrawer(false);">
+<span class="material-symbols-outlined text-lg">home</span>
 <span>Inicio</span>
 </button>
-<button class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low border-l-2 border-transparent text-label-lg font-label-lg active:scale-[0.98] transition-all" id="drawer-nav-reservas" onclick="switchTab('reservas'); toggleDrawer(false);">
-<span class="material-symbols-outlined">calendar_month</span>
+<button class="flex items-center gap-3 px-3 py-2.5 sm:px-4 sm:py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low border-l-2 border-transparent text-sm sm:text-base font-label-lg active:scale-[0.98] transition-all" id="drawer-nav-reservas" onclick="switchTab('reservas'); toggleDrawer(false);">
+<span class="material-symbols-outlined text-lg">calendar_month</span>
 <span>Reservas y Tarifas</span>
 </button>
-<button class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low border-l-2 border-transparent text-label-lg font-label-lg active:scale-[0.98] transition-all" id="drawer-nav-equipo" onclick="switchTab('equipo'); toggleDrawer(false);">
-<span class="material-symbols-outlined">groups</span>
+<button class="flex items-center gap-3 px-3 py-2.5 sm:px-4 sm:py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low border-l-2 border-transparent text-sm sm:text-base font-label-lg active:scale-[0.98] transition-all" id="drawer-nav-equipo" onclick="switchTab('equipo'); toggleDrawer(false);">
+<span class="material-symbols-outlined text-lg">groups</span>
 <span>Nuestro Equipo</span>
 </button>
 </nav>
 </div>
 <!-- Drawer Footer & Contacts -->
-<div class="pt-6 border-t border-outline-variant/20 flex flex-col gap-3">
-<a class="w-full bg-primary-container text-on-primary-container py-3 px-4 rounded text-center font-label-lg text-label-lg font-bold flex items-center justify-center gap-2" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined">chat</span>
-<span>WhatsApp (614 66 03 88)</span>
+<div class="pt-4 sm:pt-6 border-t border-outline-variant/20 flex flex-col gap-2.5">
+<a class="w-full bg-primary-container text-on-primary-container py-2.5 sm:py-3 px-3 rounded text-center text-xs sm:text-sm font-bold flex items-center justify-center gap-2" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+<span>WhatsApp 614 66 03 88</span>
 </a>
-<a class="w-full bg-surface-container hover:bg-surface-container-high py-2.5 px-4 rounded text-center text-label-md font-label-md text-on-surface flex items-center justify-center gap-2 border border-outline-variant/30" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-secondary">event_available</span>
+<a class="w-full bg-surface-container hover:bg-surface-container-high py-2 px-3 rounded text-center text-xs sm:text-sm text-on-surface flex items-center justify-center gap-2 border border-outline-variant/30" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-secondary text-base">event_available</span>
 <span>Booksy Reserva</span>
 </a>
-<a class="w-full bg-surface-container hover:bg-surface-container-high py-2.5 px-4 rounded text-center text-label-md font-label-md text-on-surface flex items-center justify-center gap-2 border border-outline-variant/30" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-primary">photo_camera</span>
+<a class="w-full bg-surface-container hover:bg-surface-container-high py-2 px-3 rounded text-center text-xs sm:text-sm text-on-surface flex items-center justify-center gap-2 border border-outline-variant/30" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-primary text-base">photo_camera</span>
 <span>Instagram @b308training</span>
 </a>
 </div>
@@ -250,198 +237,199 @@
 <!-- ========================================== -->
 <section class="w-full block" id="page-inicio">
 <!-- Hero Section -->
-<div class="relative overflow-hidden bg-surface-container-lowest border-b border-outline-variant/20 py-8 sm:py-12 md:py-16 lg:py-24">
-<!-- Radial ambient neon glow -->
-<div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] bg-primary/10 rounded-full blur-[140px] pointer-events-none"></div>
-<div class="absolute bottom-0 right-0 w-80 h-80 bg-secondary-container/20 rounded-full blur-[100px] pointer-events-none"></div>
-<div class="max-w-7xl mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-8 lg:gap-12 items-center">
-<div class="lg:col-span-7 flex flex-col items-start space-y-4 md:space-y-6">
+<div class="relative overflow-hidden bg-surface-container-lowest border-b border-outline-variant/20 py-8 sm:py-12 md:py-16 lg:py-20">
+<!-- Ambient Neon Glow -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 sm:w-96 md:w-[550px] h-64 sm:h-96 md:h-[550px] bg-primary/10 rounded-full blur-[90px] md:blur-[140px] pointer-events-none"></div>
+<div class="absolute bottom-0 right-0 w-48 sm:w-64 md:w-80 h-48 sm:h-64 md:h-80 bg-secondary-container/20 rounded-full blur-[80px] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 md:gap-10 lg:gap-12 items-center">
+<!-- Left Column: Content -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-3 sm:space-y-4 md:space-y-6">
 <!-- Badge -->
-<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container border border-primary/30 rounded text-primary text-label-md font-label-md tracking-wider">
-<span class="inline-block w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<div class="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-1 bg-surface-container border border-primary/30 rounded text-primary text-[10px] sm:text-xs font-semibold tracking-wider uppercase">
+<span class="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-primary animate-pulse"></span>
               SEVILLA · POLÍGONO INDUSTRIAL LA NEGRILLA
             </div>
-<!-- Headline -->
-<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-display-hero font-display-hero text-on-surface tracking-wide uppercase leading-tight">
-              ENTRENAMIENTO PERSONAL EN SEVILLA. <span class="text-primary underline decoration-primary/40 decoration-4 underline-offset-8">RESULTADOS REALES.</span>
+<!-- Headline Progressive Scale -->
+<h1 class="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-headline-lg font-black tracking-wide uppercase leading-tight sm:leading-tight md:leading-[1.1] text-on-surface">
+              ENTRENAMIENTO PERSONAL EN SEVILLA. <span class="text-primary underline decoration-primary/40 decoration-2 sm:decoration-4 underline-offset-4 sm:underline-offset-8">RESULTADOS REALES.</span>
 </h1>
 <!-- Subtitle -->
-<p class="text-body-lg font-body-lg text-on-surface-variant max-w-2xl">
+<p class="text-sm sm:text-base md:text-lg text-on-surface-variant max-w-2xl leading-relaxed">
               Supera tus límites con programas adaptados a ti en nuestras instalaciones de La Negrilla. Entrenamiento individual, grupos reducidos y asesoría nutricional deportiva clínica.
             </p>
 <!-- Actions Row -->
-<div class="flex flex-wrap items-center gap-4 pt-2 w-full sm:w-auto">
-<button class="w-full sm:w-auto bg-primary-container text-on-primary-container hover:bg-primary px-8 py-3.5 rounded text-label-lg font-label-lg tracking-wider font-bold transition-all duration-150 neon-halo active:scale-[0.98] flex items-center justify-center gap-2" onclick="switchTab('reservas')">
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-3.5 pt-1 sm:pt-2 w-full sm:w-auto">
+<button class="w-full sm:w-auto bg-primary-container text-on-primary-container hover:bg-primary px-5 sm:px-7 py-2.5 sm:py-3.5 rounded text-xs sm:text-sm font-label-lg tracking-wider font-bold transition-all duration-150 neon-halo active:scale-[0.98] flex items-center justify-center gap-2" onclick="switchTab('reservas')">
 <span>Reserva tu sesión</span>
-<span class="material-symbols-outlined text-lg">arrow_forward</span>
+<span class="material-symbols-outlined text-base sm:text-lg">arrow_forward</span>
 </button>
-<a class="w-full sm:w-auto bg-surface-container border border-outline-variant/40 hover:border-primary text-on-surface hover:text-primary px-6 py-3.5 rounded text-label-lg font-label-lg tracking-wider transition-all active:scale-[0.98] flex items-center justify-center gap-2" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-primary text-lg">chat</span>
+<a class="w-full sm:w-auto bg-surface-container border border-outline-variant/40 hover:border-primary text-on-surface hover:text-primary px-4 sm:px-6 py-2.5 sm:py-3.5 rounded text-xs sm:text-sm font-label-lg tracking-wider transition-all active:scale-[0.98] flex items-center justify-center gap-2" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-primary text-base sm:text-lg">chat</span>
 <span>WhatsApp Directo</span>
 </a>
 </div>
 <!-- Stat Counters Row -->
-<div class="grid grid-cols-3 gap-6 pt-6 border-t border-outline-variant/30 w-full">
+<div class="grid grid-cols-3 gap-2 sm:gap-4 md:gap-6 pt-4 sm:pt-6 border-t border-outline-variant/30 w-full text-center sm:text-left">
 <div>
-<p class="text-headline-lg font-headline-lg text-primary">1 a 1</p>
-<p class="text-label-sm font-label-sm text-on-surface-variant">Individual exclusivo</p>
-</div>
-<div>
-<p class="text-headline-lg font-headline-lg text-secondary">4 - 6</p>
-<p class="text-label-sm font-label-sm text-on-surface-variant">Personas máx. grupo</p>
+<p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-headline-lg font-bold text-primary">1 a 1</p>
+<p class="text-[10px] sm:text-xs text-on-surface-variant font-medium">Individual exclusivo</p>
 </div>
 <div>
-<p class="text-headline-lg font-headline-lg text-on-surface">100%</p>
-<p class="text-label-sm font-label-sm text-on-surface-variant">Plan a medida</p>
+<p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-headline-lg font-bold text-secondary">4 - 6</p>
+<p class="text-[10px] sm:text-xs text-on-surface-variant font-medium">Personas máx. grupo</p>
+</div>
+<div>
+<p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-headline-lg font-bold text-on-surface">100%</p>
+<p class="text-[10px] sm:text-xs text-on-surface-variant font-medium">Plan a medida</p>
 </div>
 </div>
 </div>
-<!-- Hero Graphic Card -->
+<!-- Right Column: Hero Graphic Card (Optimized Scale for Mobile) -->
 <div class="lg:col-span-5 flex justify-center">
-<div class="relative w-full max-w-[220px] sm:max-w-xs md:max-w-sm lg:max-w-md rounded-xl bg-surface-container-low border border-outline-variant/40 p-3 md:p-4 shadow-2xl overflow-hidden group">
-<div class="absolute -right-10 -bottom-10 w-48 h-48 bg-primary/20 rounded-full blur-3xl pointer-events-none"></div>
-<div class="relative rounded-lg overflow-hidden bg-surface-container-lowest border border-outline-variant/20 flex flex-col items-center justify-center p-6 text-center">
-<img alt="B 308 Training Emblema" class="w-4/5 max-h-32 sm:max-h-44 md:max-h-56 lg:max-h-72 object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRqYc8FgCGm4Xxumvsc8T5CA5VuuFgcrwyTaxWpnDIAhYNjV9o4bErBLqdz4VdbSB08MllIWkEULpsdktFtXr7ZlEci2z6olElOteX3IcbaCSyLYsiw4_60kBehWQKTS23fM_0P3ZHBAWYHtH_o-PbMEczEy458K7bKOQNQvJYGkio4heNLdiIpJNtlmRX8FwknCBYwkWH3-iHzLRC9CiM5zcYGl5x0KKw8on14odr7XA1sS0TemNEx4L5BABv0ATXi4g"/>
-<div class="mt-4 pt-4 border-t border-outline-variant/20 w-full flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+<div class="relative w-full max-w-[240px] sm:max-w-[320px] md:max-w-md lg:max-w-xl mx-auto rounded-xl bg-surface-container-low border border-outline-variant/40 p-3 sm:p-4 shadow-xl overflow-hidden group">
+<div class="absolute -right-8 -bottom-8 w-32 sm:w-48 h-32 sm:h-48 bg-primary/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative rounded-lg overflow-hidden bg-surface-container-lowest border border-outline-variant/20 flex flex-col items-center justify-center p-3 sm:p-5 text-center">
+<img alt="B 308 Training Emblema" class="w-full max-h-36 sm:max-h-52 md:max-h-64 object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApFoJwSXxSdf2P9uZg5YjLXjvvZ3L6fqC0WDiOYwaBVYxlUgeeuKL3CB-7qZHH-IoHr9_23GyF7upW3IRp1NKclZ52jUqEkfEPDHXYQUyM5vQxNY1viqO7_Aj1jxK4hmAZC8gQGD_SuGA7xAvUOmoLdxTLsCHFNqT8gORL7AKzkstiwbVqKVvJ5Vqeq7oxWw6mVYnJ7ofKh5MDaKyZDco8qeCBP0F7A0lPEkyxuyRC-c9-qIVp6GxJ9_3hnvBwrjq0Yvw"/>
+<div class="mt-2.5 sm:mt-4 pt-2.5 sm:pt-3 border-t border-outline-variant/20 w-full flex items-center justify-between text-[10px] sm:text-xs font-label-sm text-on-surface-variant">
 <span class="text-primary font-semibold">ENTRENAMIENTO PERSONAL</span>
 <span>CALLE MONTORO 6</span>
 </div>
 </div>
 <!-- Live Status Pill -->
-<div class="mt-3 flex items-center justify-between px-2 text-label-md font-label-md">
+<div class="mt-2 sm:mt-3 flex items-center justify-between px-1 text-[11px] sm:text-xs font-label-md">
 <span class="text-on-surface flex items-center gap-1.5">
-<span class="w-2 h-2 rounded-full bg-primary"></span> Instalaciones Activas
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span> Instalaciones Activas
                 </span>
-<span class="text-primary">Polígono La Negrilla</span>
+<span class="text-primary font-semibold">Polígono La Negrilla</span>
 </div>
 </div>
 </div>
 </div>
 </div>
-<!-- Sección "Por qué B 308 Training" (Bento Cards) -->
-<section class="max-w-7xl mx-auto px-6 py-8 sm:py-10 md:py-14 lg:py-20">
-<div class="text-center max-w-3xl mx-auto mb-6 sm:mb-8 md:mb-10 lg:mb-14">
-<p class="text-label-md font-label-md text-primary tracking-widest uppercase">METODOLOGÍA DE ALTO RENDIMIENTO</p>
-<h2 class="text-xl sm:text-2xl md:text-headline-lg font-headline-lg uppercase mt-2 text-on-surface">¿POR QUÉ ENTRENAR EN B 308 TRAINING?</h2>
-<p class="text-body-md font-body-md text-on-surface-variant mt-3">
+<!-- Sección "¿Por qué B 308 Training?" (Bento Cards Compactas) -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10 md:py-16 lg:py-20">
+<div class="text-center max-w-3xl mx-auto mb-4 sm:mb-6 md:mb-8">
+<p class="text-xs sm:text-sm font-label-md text-primary tracking-widest uppercase">METODOLOGÍA DE ALTO RENDIMIENTO</p>
+<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-headline-lg uppercase mt-1 sm:mt-2 text-on-surface">¿POR QUÉ ENTRENAR EN B 308 TRAINING?</h2>
+<p class="text-xs sm:text-sm md:text-base text-on-surface-variant mt-1.5 sm:mt-2">
             Abandonamos los gimnasios masificados para brindarte un entorno enfocado en la técnica, la exigencia y tu salud articular.
           </p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 lg:gap-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
 <!-- Card 1: Grupos Reducidos -->
-<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 sm:p-6 lg:p-8 relative overflow-hidden flex flex-col justify-between hover:border-primary/60 transition-all duration-200 group">
+<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 relative overflow-hidden flex flex-col justify-between hover:border-primary/60 transition-all duration-200 group">
 <div class="absolute top-0 left-0 w-1.5 h-full bg-primary"></div>
 <div>
-<div class="w-12 h-12 rounded bg-primary/10 border border-primary/30 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-surface-container-lowest transition-colors">
-<span class="material-symbols-outlined text-2xl">groups</span>
+<div class="w-9 h-9 sm:w-11 sm:h-11 rounded bg-primary/10 border border-primary/30 flex items-center justify-center text-primary mb-3 sm:mb-5 group-hover:bg-primary group-hover:text-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-lg sm:text-xl">groups</span>
 </div>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface mb-3">Grupos reducidos</h3>
-<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed">
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface mb-2">Grupos reducidos</h3>
+<p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
                 Máximo 4-6 personas por sesión para garantizar corrección postural permanente, seguridad en levantamientos y máxima intensidad controlada sin esperas de maquinaria.
               </p>
 </div>
-<div class="mt-8 pt-4 border-t border-outline-variant/20 flex items-center justify-between text-label-sm font-label-sm text-primary">
+<div class="mt-4 sm:mt-6 pt-3 border-t border-outline-variant/20 flex items-center justify-between text-[11px] sm:text-xs text-primary font-semibold">
 <span>MÁXIMA ATENCIÓN</span>
-<span class="material-symbols-outlined text-sm">fitness_center</span>
+<span class="material-symbols-outlined text-xs sm:text-sm">fitness_center</span>
 </div>
 </div>
 <!-- Card 2: Atención Técnica Personalizada -->
-<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 sm:p-6 lg:p-8 relative overflow-hidden flex flex-col justify-between hover:border-primary/60 transition-all duration-200 group">
+<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 relative overflow-hidden flex flex-col justify-between hover:border-primary/60 transition-all duration-200 group">
 <div class="absolute top-0 left-0 w-1.5 h-full bg-secondary"></div>
 <div>
-<div class="w-12 h-12 rounded bg-secondary/10 border border-secondary/30 flex items-center justify-center text-secondary mb-6 group-hover:bg-secondary group-hover:text-surface-container-lowest transition-colors">
-<span class="material-symbols-outlined text-2xl">vital_signs</span>
+<div class="w-9 h-9 sm:w-11 sm:h-11 rounded bg-secondary/10 border border-secondary/30 flex items-center justify-center text-secondary mb-3 sm:mb-5 group-hover:bg-secondary group-hover:text-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-lg sm:text-xl">vital_signs</span>
 </div>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface mb-3">Atención técnica personalizada</h3>
-<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed">
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface mb-2">Atención técnica personalizada</h3>
+<p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
                 Adaptación milimétrica a tus metas, biomecánica y ritmo de progresión. Monitoreamos volumen, intensidad y movilidad para evitar estancamientos y prevenir lesiones.
               </p>
 </div>
-<div class="mt-8 pt-4 border-t border-outline-variant/20 flex items-center justify-between text-label-sm font-label-sm text-secondary">
+<div class="mt-4 sm:mt-6 pt-3 border-t border-outline-variant/20 flex items-center justify-between text-[11px] sm:text-xs text-secondary font-semibold">
 <span>BIOMECÁNICA Y FUERZA</span>
-<span class="material-symbols-outlined text-sm">tune</span>
+<span class="material-symbols-outlined text-xs sm:text-sm">tune</span>
 </div>
 </div>
 <!-- Card 3: Todos los niveles -->
-<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 sm:p-6 lg:p-8 relative overflow-hidden flex flex-col justify-between hover:border-primary/60 transition-all duration-200 group">
+<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 relative overflow-hidden flex flex-col justify-between hover:border-primary/60 transition-all duration-200 group">
 <div class="absolute top-0 left-0 w-1.5 h-full bg-tertiary"></div>
 <div>
-<div class="w-12 h-12 rounded bg-tertiary/10 border border-tertiary/30 flex items-center justify-center text-tertiary mb-6 group-hover:bg-tertiary group-hover:text-surface-container-lowest transition-colors">
-<span class="material-symbols-outlined text-2xl">trending_up</span>
+<div class="w-9 h-9 sm:w-11 sm:h-11 rounded bg-tertiary/10 border border-tertiary/30 flex items-center justify-center text-tertiary mb-3 sm:mb-5 group-hover:bg-tertiary group-hover:text-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-lg sm:text-xl">trending_up</span>
 </div>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface mb-3">Adaptado a todos los niveles</h3>
-<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed">
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface mb-2">Adaptado a todos los niveles</h3>
+<p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
                 Desde personas que inician para mejorar su salud articular, perder grasa o eliminar dolores de espalda, hasta deportistas avanzados que buscan maximizar marcas y potencia.
               </p>
 </div>
-<div class="mt-8 pt-4 border-t border-outline-variant/20 flex items-center justify-between text-label-sm font-label-sm text-tertiary">
+<div class="mt-4 sm:mt-6 pt-3 border-t border-outline-variant/20 flex items-center justify-between text-[11px] sm:text-xs text-tertiary font-semibold">
 <span>SALUD &amp; RENDIMIENTO</span>
-<span class="material-symbols-outlined text-sm">verified</span>
+<span class="material-symbols-outlined text-xs sm:text-sm">verified</span>
 </div>
 </div>
 </div>
 </section>
-<!-- SECCIÓN SERVICIOS DE NUTRICIÓN (Feature Spotlight con Imagen 2) -->
-<section class="w-full bg-surface-container-low border-y border-outline-variant/20 py-8 sm:py-10 md:py-14 lg:py-20 relative overflow-hidden">
-<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-<!-- Image Poster Column -->
+<!-- SECCIÓN SERVICIOS DE NUTRICIÓN (Feature Spotlight con Imagen) -->
+<section class="w-full bg-surface-container-low border-y border-outline-variant/20 py-6 sm:py-10 md:py-16 lg:py-20 relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 md:gap-10 lg:gap-12 items-center">
+<!-- Image Column -->
 <div class="lg:col-span-6 flex justify-center order-2 lg:order-1">
-<div class="relative w-full max-w-lg rounded-xl overflow-hidden border border-primary/30 shadow-2xl neon-border-pulse group">
-<img alt="Nuevos Servicios de Nutrición Deportiva B 308 Training" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcrst0TwpwH5-fwi5uKLVPeLKsKLz9SxV6OSO0Yb2WjGgqDPB6LKelI7yQbElv0PAy413dMAHSqPpeLl9TE9OBDZ6ybNZghqFcks6S6o_SkZxVn73KU7IDRhQLygwNxb-4xQEPHchR-xj5v_FB9VLQPDdWPRkN-1--YaKVbnqBD6XWEQNqR2Gb8WApryVmX1-HAxLChXYCle6XOrcYAJklqM95e-Mzo1vmw_1IJ6pgsQTUkAvok5qAP0STGytS6vnAwgM"/>
+<div class="relative w-full max-w-sm sm:max-w-md lg:max-w-lg rounded-xl overflow-hidden border border-primary/30 shadow-xl neon-border-pulse group">
+<img alt="Nuevos Servicios de Nutrición Deportiva B 308 Training" class="w-full h-auto object-cover max-h-[300px] sm:max-h-[380px] md:max-h-[460px] transform group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKRC_E3UxolkdLjyv3LMljg_-OOOfOrKCJJY7jfNkfKOc99FxZruMkt23JizNcT2U29ZtbQUAUElO62ROOgB2Lxgk08MX1rPLMPvWlSDcM-4jz5BPW3I4MSzbd4L8Eru1_31KOJ5LpxO6uvMKkrtJ1QJEJ-0hHCLmD3-04I4VmFOgH3UtrXCWKq34IUZzOTc9d4QgGRoyKrt7o50WrO1xpv36mJt_XHBJpefNJ4mU57RGLQiNSRw4ZmNEMvWUlM4eS5Ro"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
-<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md p-3 rounded border border-outline-variant/30 flex items-center justify-between">
-<span class="text-label-md font-label-md text-primary uppercase">SERVICIOS DE NUTRICIÓN CLÍNICA</span>
-<span class="text-body-sm font-body-sm text-on-surface">Consulta individual</span>
+<div class="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 bg-surface-container-lowest/90 backdrop-blur-md p-2.5 sm:p-3 rounded border border-outline-variant/30 flex items-center justify-between text-xs sm:text-sm">
+<span class="font-label-md text-primary uppercase font-bold text-[11px] sm:text-xs">SERVICIOS DE NUTRICIÓN CLÍNICA</span>
+<span class="text-on-surface text-[11px] sm:text-xs">Consulta individual</span>
 </div>
 </div>
 </div>
 <!-- Content Column -->
-<div class="lg:col-span-6 order-1 lg:order-2 space-y-4 md:space-y-6">
-<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container-high border border-primary/40 rounded text-primary text-label-md font-label-md">
-<span class="material-symbols-outlined text-base">restaurant</span>
+<div class="lg:col-span-6 order-1 lg:order-2 space-y-3 sm:space-y-4 md:space-y-5">
+<div class="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-0.5 sm:py-1 bg-surface-container-high border border-primary/40 rounded text-primary text-[10px] sm:text-xs font-semibold uppercase">
+<span class="material-symbols-outlined text-sm sm:text-base">restaurant</span>
               POTENCIA TUS RESULTADOS
             </div>
-<h2 class="text-2xl sm:text-3xl md:text-headline-lg font-headline-lg uppercase text-on-surface leading-tight">
+<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-headline-lg uppercase text-on-surface leading-tight">
               NUEVOS SERVICIOS DE <span class="text-primary">NUTRICIÓN DEPORTIVA</span>
 </h2>
-<p class="text-body-lg font-body-lg text-on-surface-variant">
+<p class="text-xs sm:text-sm md:text-base text-on-surface-variant leading-relaxed">
               El entrenamiento es solo el 50% de la ecuación. Integra asesoría dietética especializada para recuperar mejor, perder grasa de forma sostenida y construir masa muscular magra.
             </p>
-<div class="space-y-4 pt-2">
-<div class="flex items-start gap-3.5">
-<div class="p-2 rounded bg-surface-container border border-primary/30 text-primary mt-1">
-<span class="material-symbols-outlined text-xl">restaurant_menu</span>
+<div class="space-y-2.5 sm:space-y-3.5 pt-1">
+<div class="flex items-start gap-2.5 sm:gap-3.5">
+<div class="p-1.5 sm:p-2 rounded bg-surface-container border border-primary/30 text-primary mt-0.5 flex-shrink-0">
+<span class="material-symbols-outlined text-base sm:text-lg">restaurant_menu</span>
 </div>
 <div>
-<h4 class="text-headline-sm font-headline-sm uppercase text-on-surface">Planes Nutricionales Personalizados</h4>
-<p class="text-body-sm font-body-sm text-on-surface-variant">Diseñados conforme a tus calorías diana, gustos, horarios de trabajo y estilo de vida real sin dietas milagro.</p>
+<h4 class="text-sm sm:text-base font-headline-sm uppercase text-on-surface font-semibold">Planes Nutricionales Personalizados</h4>
+<p class="text-xs sm:text-sm text-on-surface-variant">Diseñados conforme a tus calorías diana, gustos, horarios y estilo de vida sin dietas milagro.</p>
 </div>
 </div>
-<div class="flex items-start gap-3.5">
-<div class="p-2 rounded bg-surface-container border border-secondary/30 text-secondary mt-1">
-<span class="material-symbols-outlined text-xl">bolt</span>
-</div>
-<div>
-<h4 class="text-headline-sm font-headline-sm uppercase text-on-surface">Mejora tu Rendimiento y Recuperación</h4>
-<p class="text-body-sm font-body-sm text-on-surface-variant">Estrategias de peri-entrenamiento (pre, intra y post entreno) para retrasar la fatiga y acelerar la regeneración de glucógeno.</p>
-</div>
-</div>
-<div class="flex items-start gap-3.5">
-<div class="p-2 rounded bg-surface-container border border-tertiary/30 text-tertiary mt-1">
-<span class="material-symbols-outlined text-xl">checklist</span>
+<div class="flex items-start gap-2.5 sm:gap-3.5">
+<div class="p-1.5 sm:p-2 rounded bg-surface-container border border-secondary/30 text-secondary mt-0.5 flex-shrink-0">
+<span class="material-symbols-outlined text-base sm:text-lg">bolt</span>
 </div>
 <div>
-<h4 class="text-headline-sm font-headline-sm uppercase text-on-surface">Asesoría, Mediciones y Seguimiento Continuo</h4>
-<p class="text-body-sm font-body-sm text-on-surface-variant">Acompañamiento profesional y ajustes periódicos basados en métricas antropométricas objetivas.</p>
+<h4 class="text-sm sm:text-base font-headline-sm uppercase text-on-surface font-semibold">Mejora tu Rendimiento y Recuperación</h4>
+<p class="text-xs sm:text-sm text-on-surface-variant">Estrategias peri-entreno para retrasar la fatiga y acelerar la regeneración muscular.</p>
+</div>
+</div>
+<div class="flex items-start gap-2.5 sm:gap-3.5">
+<div class="p-1.5 sm:p-2 rounded bg-surface-container border border-tertiary/30 text-tertiary mt-0.5 flex-shrink-0">
+<span class="material-symbols-outlined text-base sm:text-lg">checklist</span>
+</div>
+<div>
+<h4 class="text-sm sm:text-base font-headline-sm uppercase text-on-surface font-semibold">Asesoría, Mediciones y Seguimiento Continuo</h4>
+<p class="text-xs sm:text-sm text-on-surface-variant">Acompañamiento profesional y ajustes periódicos basados en métricas antropométricas objetivas.</p>
 </div>
 </div>
 </div>
-<div class="pt-4 flex flex-wrap gap-4">
-<a class="bg-primary-container text-on-primary-container hover:bg-primary px-6 py-3 rounded text-label-lg font-label-lg tracking-wider font-bold transition-all active:scale-[0.98] flex items-center gap-2" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-lg">chat</span>
+<div class="pt-2 sm:pt-3 flex flex-col sm:flex-row gap-2.5 sm:gap-3">
+<a class="bg-primary-container text-on-primary-container hover:bg-primary px-4 sm:px-6 py-2.5 sm:py-3 rounded text-xs sm:text-sm font-label-lg tracking-wider font-bold transition-all active:scale-[0.98] flex items-center justify-center gap-2 text-center" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base sm:text-lg">chat</span>
 <span>Consultar Asesoría Nutricional</span>
 </a>
-<button class="px-5 py-3 border border-outline-variant/50 hover:border-primary text-on-surface hover:text-primary rounded text-label-lg font-label-lg transition-all" onclick="switchTab('equipo')">
+<button class="px-4 sm:px-5 py-2.5 sm:py-3 border border-outline-variant/50 hover:border-primary text-on-surface hover:text-primary rounded text-xs sm:text-sm font-label-lg transition-all text-center" onclick="switchTab('equipo')">
                 Conoce a nuestra Nutricionista
               </button>
 </div>
@@ -449,84 +437,84 @@
 </div>
 </section>
 <!-- SECCIÓN UBICACIÓN & HORARIOS -->
-<section class="max-w-7xl mx-auto px-6 py-8 sm:py-10 md:py-14 lg:py-20">
-<div class="text-center max-w-3xl mx-auto mb-6 sm:mb-8 md:mb-10 lg:mb-14">
-<p class="text-label-md font-label-md text-primary tracking-widest uppercase">INSTALACIONES &amp; ACCESO</p>
-<h2 class="text-xl sm:text-2xl md:text-headline-lg font-headline-lg uppercase mt-2 text-on-surface">DÓNDE ESTAMOS Y HORARIOS</h2>
-<p class="text-body-md font-body-md text-on-surface-variant mt-2">
+<section class="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10 md:py-16 lg:py-20">
+<div class="text-center max-w-3xl mx-auto mb-4 sm:mb-6 md:mb-8">
+<p class="text-xs sm:text-sm font-label-md text-primary tracking-widest uppercase">INSTALACIONES &amp; ACCESO</p>
+<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-headline-lg uppercase mt-1 sm:mt-2 text-on-surface">DÓNDE ESTAMOS Y HORARIOS</h2>
+<p class="text-xs sm:text-sm md:text-base text-on-surface-variant mt-1.5 sm:mt-2">
             Entrenamiento de máxima calidad en Sevilla con fácil aparcamiento y accesos rápidos desde la SE-30.
           </p>
 </div>
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-5 md:gap-6 lg:gap-8 items-stretch">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 md:gap-8 items-stretch">
 <!-- Columna 1: Mapa Interactivo / Embebido Google Maps -->
-<div class="lg:col-span-7 bg-surface-container-low rounded-xl border border-outline-variant/30 overflow-hidden flex flex-col shadow-lg min-h-[220px] sm:min-h-[260px] md:min-h-[320px] lg:min-h-[380px]">
-<div class="p-4 bg-surface-container border-b border-outline-variant/20 flex items-center justify-between">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary">location_on</span>
-<span class="text-label-md font-label-md text-on-surface font-semibold">CALLE MONTORO 6 · POLÍGONO LA NEGRILLA, SEVILLA</span>
+<div class="lg:col-span-7 bg-surface-container-low rounded-xl border border-outline-variant/30 overflow-hidden flex flex-col shadow-lg">
+<div class="p-3 sm:p-4 bg-surface-container border-b border-outline-variant/20 flex items-center justify-between">
+<div class="flex items-center gap-1.5 sm:gap-2">
+<span class="material-symbols-outlined text-primary text-base sm:text-lg">location_on</span>
+<span class="text-xs sm:text-sm font-headline-sm text-on-surface font-semibold truncate max-w-[200px] sm:max-w-none">CALLE MONTORO 6 · POLÍGONO LA NEGRILLA, SEVILLA</span>
 </div>
-<a class="text-label-sm font-label-sm text-primary hover:underline flex items-center gap-1" href="https://maps.google.com/?q=Calle+Montoro+6+41006+Sevilla" rel="noopener noreferrer" target="_blank">
-<span>Abrir en Maps</span>
-<span class="material-symbols-outlined text-sm">open_in_new</span>
+<a class="text-[11px] sm:text-xs text-primary hover:underline flex items-center gap-1 flex-shrink-0" href="https://maps.google.com/?q=Calle+Montoro+6+41006+Sevilla" rel="noopener noreferrer" target="_blank">
+<span>Maps</span>
+<span class="material-symbols-outlined text-xs">open_in_new</span>
 </a>
 </div>
-<div class="flex-1 w-full relative">
-<iframe allowfullscreen="" class="w-full h-full min-h-[200px] sm:min-h-[240px] md:min-h-[300px] lg:min-h-[320px] border-0 grayscale contrast-125 invert-[0.9] hue-rotate-180" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.835339247738!2d-5.942732923588972!3d37.36987163532729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ef89b7cf3f7%3A0x6b63c7ddbeea9aa9!2sCalle%20Montoro%2C%206%2C%2041006%20Sevilla!5e0!3m2!1ses!2ses!4v1710000000000!5m2!1ses!2ses" title="Ubicación de B 308 Training en Google Maps">
+<div class="flex-1 w-full relative h-52 sm:h-64 md:h-80 lg:h-full min-h-[220px] sm:min-h-[280px] md:min-h-[360px]">
+<iframe allowfullscreen="" class="w-full h-full border-0 grayscale contrast-125 invert-[0.9] hue-rotate-180" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.835339247738!2d-5.942732923588972!3d37.36987163532729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ef89b7cf3f7%3A0x6b63c7ddbeea9aa9!2sCalle%20Montoro%2C%206%2C%2041006%20Sevilla!5e0!3m2!1ses!2ses!4v1710000000000!5m2!1ses!2ses" title="Ubicación de B 308 Training en Google Maps">
 </iframe>
 </div>
 </div>
 <!-- Columna 2: Ficha Técnica Deportiva con Horarios -->
-<div class="lg:col-span-5 bg-surface-container-low rounded-xl border border-outline-variant/30 p-5 sm:p-6 lg:p-8 flex flex-col justify-between shadow-lg">
+<div class="lg:col-span-5 bg-surface-container-low rounded-xl border border-outline-variant/30 p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-lg">
 <div>
-<div class="flex items-center gap-2 text-primary text-label-md font-label-md mb-2 uppercase">
-<span class="material-symbols-outlined text-base">schedule</span>
+<div class="flex items-center gap-1.5 sm:gap-2 text-primary text-xs sm:text-sm font-label-md mb-1.5 uppercase font-bold">
+<span class="material-symbols-outlined text-sm sm:text-base">schedule</span>
                 HORARIO DE ACTIVIDAD
               </div>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface mb-6">Instalaciones &amp; Atención</h3>
+<h3 class="text-lg sm:text-xl md:text-2xl font-headline-md uppercase text-on-surface mb-3 sm:mb-5">Instalaciones &amp; Atención</h3>
 <!-- Horarios Table -->
-<div class="space-y-3 mb-8">
-<div class="flex items-center justify-between p-3 rounded bg-surface-container border border-outline-variant/20">
+<div class="space-y-2 sm:space-y-2.5 mb-4 sm:mb-6">
+<div class="flex items-center justify-between p-2.5 sm:p-3 rounded bg-surface-container border border-outline-variant/20">
 <div class="flex items-center gap-2">
 <span class="w-2 h-2 rounded-full bg-primary"></span>
-<span class="text-body-md font-body-md text-on-surface font-medium">Lunes a Viernes</span>
+<span class="text-xs sm:text-sm md:text-base font-medium text-on-surface">Lunes a Viernes</span>
 </div>
-<span class="text-headline-sm font-headline-sm text-primary font-bold">07:00 - 22:00</span>
+<span class="text-sm sm:text-base font-headline-sm text-primary font-bold">07:00 - 22:00</span>
 </div>
-<div class="flex items-center justify-between p-3 rounded bg-surface-container border border-outline-variant/20">
+<div class="flex items-center justify-between p-2.5 sm:p-3 rounded bg-surface-container border border-outline-variant/20">
 <div class="flex items-center gap-2">
 <span class="w-2 h-2 rounded-full bg-secondary"></span>
-<span class="text-body-md font-body-md text-on-surface font-medium">Sábados</span>
+<span class="text-xs sm:text-sm md:text-base font-medium text-on-surface">Sábados</span>
 </div>
-<span class="text-headline-sm font-headline-sm text-secondary font-bold">09:00 - 14:00</span>
+<span class="text-sm sm:text-base font-headline-sm text-secondary font-bold">09:00 - 14:00</span>
 </div>
-<div class="flex items-center justify-between p-3 rounded bg-surface-container border border-outline-variant/20 opacity-70">
+<div class="flex items-center justify-between p-2.5 sm:p-3 rounded bg-surface-container border border-outline-variant/20 opacity-70">
 <div class="flex items-center gap-2">
 <span class="w-2 h-2 rounded-full bg-outline"></span>
-<span class="text-body-md font-body-md text-on-surface">Domingos</span>
+<span class="text-xs sm:text-sm md:text-base text-on-surface">Domingos</span>
 </div>
-<span class="text-label-md font-label-md text-on-surface-variant uppercase">Cerrado</span>
+<span class="text-xs sm:text-sm font-label-md text-on-surface-variant uppercase">Cerrado</span>
 </div>
 </div>
 <!-- Quick Contact Details -->
-<div class="space-y-3 text-body-sm font-body-sm text-on-surface-variant border-t border-outline-variant/20 pt-6">
-<div class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary text-lg mt-0.5">pin_drop</span>
+<div class="space-y-2 text-xs sm:text-sm text-on-surface-variant border-t border-outline-variant/20 pt-3 sm:pt-4">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-base mt-0.5 flex-shrink-0">pin_drop</span>
 <span>Calle Montoro 6, 41006 Sevilla (Polígono La Negrilla)</span>
 </div>
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary text-lg">call</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base flex-shrink-0">call</span>
 <span class="text-on-surface font-semibold">614 66 03 88</span>
 </div>
 </div>
 </div>
 <!-- Bottom Actions -->
-<div class="mt-8 pt-6 border-t border-outline-variant/20 flex flex-col sm:flex-row gap-3">
-<a class="flex-1 bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 text-on-surface hover:text-primary py-2.5 px-4 rounded text-center text-label-md font-label-md tracking-wider flex items-center justify-center gap-2 transition-all" href="https://maps.google.com/?q=Calle+Montoro+6+41006+Sevilla" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-base">directions</span>
+<div class="mt-4 sm:mt-6 pt-3 sm:pt-4 border-t border-outline-variant/20 flex flex-col sm:flex-row gap-2 sm:gap-3">
+<a class="flex-1 bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 text-on-surface hover:text-primary py-2 sm:py-2.5 px-3 rounded text-center text-xs sm:text-sm font-label-md tracking-wider flex items-center justify-center gap-1.5 transition-all" href="https://maps.google.com/?q=Calle+Montoro+6+41006+Sevilla" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-sm sm:text-base">directions</span>
 <span>Cómo llegar</span>
 </a>
-<a class="flex-1 bg-primary-container text-on-primary-container hover:bg-primary py-2.5 px-4 rounded text-center text-label-md font-label-md tracking-wider font-bold flex items-center justify-center gap-2 transition-all neon-border-pulse" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-base">chat</span>
+<a class="flex-1 bg-primary-container text-on-primary-container hover:bg-primary py-2 sm:py-2.5 px-3 rounded text-center text-xs sm:text-sm font-label-md tracking-wider font-bold flex items-center justify-center gap-1.5 transition-all neon-border-pulse" href="https://wa.me/34614660388" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-sm sm:text-base">chat</span>
 <span>Escríbenos</span>
 </a>
 </div>
@@ -539,185 +527,185 @@
 <!-- ========================================== -->
 <section class="w-full hidden" id="page-reservas">
 <!-- Reservas Header / Hero Banner -->
-<div class="bg-surface-container-low border-b border-outline-variant/20 py-6 sm:py-8 md:py-12 lg:py-16 text-center relative overflow-hidden">
-<div class="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-40 bg-primary/15 rounded-full blur-[100px] pointer-events-none"></div>
-<div class="max-w-4xl mx-auto px-6 relative z-10">
-<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container border border-primary/30 rounded text-primary text-label-md font-label-md uppercase mb-3">
-<span class="material-symbols-outlined text-base">event_available</span>
+<div class="bg-surface-container-low border-b border-outline-variant/20 py-8 sm:py-12 md:py-16 text-center relative overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-64 sm:w-80 md:w-96 h-28 sm:h-36 md:h-40 bg-primary/15 rounded-full blur-[90px] pointer-events-none"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
+<div class="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-0.5 sm:py-1 bg-surface-container border border-primary/30 rounded text-primary text-[10px] sm:text-xs font-label-md uppercase mb-2">
+<span class="material-symbols-outlined text-sm sm:text-base">event_available</span>
             PLANIFICA TU DISCIPLINA
           </div>
-<h1 class="text-2xl sm:text-3xl md:text-headline-lg font-headline-lg uppercase text-on-surface">RESERVA TU CITA</h1>
-<p class="text-body-lg font-body-lg text-on-surface-variant mt-3 max-w-2xl mx-auto">
+<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-headline-lg uppercase text-on-surface">RESERVA TU CITA</h1>
+<p class="text-xs sm:text-sm md:text-base lg:text-lg text-on-surface-variant mt-2 max-w-2xl mx-auto">
             Elige tu plataforma preferida para agendar tu primera sesión de evaluación o reserva recurrente con nuestros entrenadores en La Negrilla.
           </p>
 <!-- Dual Mega Reservation Buttons -->
-<div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+<div class="mt-6 sm:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 max-w-2xl mx-auto">
 <!-- Booksy Button -->
-<a class="bg-primary-container text-on-primary-container hover:bg-primary p-6 rounded-xl text-left transition-all duration-150 neon-halo active:scale-[0.98] flex items-center justify-between group" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded bg-surface-container-lowest text-primary flex items-center justify-center font-bold text-xl">
-<span class="material-symbols-outlined text-2xl">event_available</span>
+<a class="bg-primary-container text-on-primary-container hover:bg-primary p-3.5 sm:p-5 rounded-xl text-left transition-all duration-150 neon-halo active:scale-[0.98] flex items-center justify-between group" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 sm:w-11 sm:h-11 rounded bg-surface-container-lowest text-primary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-lg sm:text-xl">event_available</span>
 </div>
 <div>
-<p class="text-headline-md font-headline-md uppercase text-on-primary-container leading-tight">Reservar en Booksy</p>
-<p class="text-label-sm font-label-sm text-on-primary-container/80">Citas online en vivo 24/7</p>
+<p class="text-sm sm:text-base md:text-lg font-headline-md uppercase text-on-primary-container leading-tight">Reservar en Booksy</p>
+<p class="text-[11px] sm:text-xs text-on-primary-container/80">Citas online en vivo 24/7</p>
 </div>
 </div>
-<span class="material-symbols-outlined text-2xl transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+<span class="material-symbols-outlined text-lg sm:text-xl transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
 </a>
 <!-- Google Calendar Button -->
-<a class="bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-on-surface p-6 rounded-xl text-left transition-all duration-150 active:scale-[0.98] flex items-center justify-between group" href="https://calendar.google.com" rel="noopener noreferrer" target="_blank">
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded bg-surface-container-lowest text-secondary flex items-center justify-center font-bold text-xl">
-<span class="material-symbols-outlined text-2xl">calendar_month</span>
+<a class="bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-on-surface p-3.5 sm:p-5 rounded-xl text-left transition-all duration-150 active:scale-[0.98] flex items-center justify-between group" href="https://calendar.google.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 sm:w-11 sm:h-11 rounded bg-surface-container-lowest text-secondary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-lg sm:text-xl">calendar_month</span>
 </div>
 <div>
-<p class="text-headline-md font-headline-md uppercase text-on-surface leading-tight">Google Calendar</p>
-<p class="text-label-sm font-label-sm text-on-surface-variant">Agendar con tu agenda digital</p>
+<p class="text-sm sm:text-base md:text-lg font-headline-md uppercase text-on-surface leading-tight">Google Calendar</p>
+<p class="text-[11px] sm:text-xs text-on-surface-variant">Agendar con tu agenda digital</p>
 </div>
 </div>
-<span class="material-symbols-outlined text-2xl text-on-surface-variant group-hover:text-primary transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+<span class="material-symbols-outlined text-lg sm:text-xl text-on-surface-variant group-hover:text-primary transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
 </a>
 </div>
 </div>
 </div>
 <!-- Planes y Tarifas Grid -->
-<div class="max-w-7xl mx-auto px-6 py-8 sm:py-10 md:py-14 lg:py-20">
-<div class="text-center max-w-3xl mx-auto mb-6 sm:mb-8 md:mb-10 lg:mb-14">
-<p class="text-label-md font-label-md text-primary tracking-widest uppercase">TARIFAS DEPORTIVAS</p>
-<h2 class="text-xl sm:text-2xl md:text-headline-lg font-headline-lg uppercase mt-2 text-on-surface">PROGRAMAS DE ENTRENAMIENTO</h2>
-<p class="text-body-md font-body-md text-on-surface-variant mt-2">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10 md:py-16 lg:py-20">
+<div class="text-center max-w-3xl mx-auto mb-4 sm:mb-6 md:mb-8">
+<p class="text-xs sm:text-sm font-label-md text-primary tracking-widest uppercase">TARIFAS DEPORTIVAS</p>
+<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-headline-lg uppercase mt-1 sm:mt-2 text-on-surface">PROGRAMAS DE ENTRENAMIENTO</h2>
+<p class="text-xs sm:text-sm md:text-base text-on-surface-variant mt-1.5 sm:mt-2">
             Planes estructurados según tu disponibilidad y metas. Sin permanencias abusivas, con máxima honestidad y rigor profesional.
           </p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 lg:gap-8 items-stretch">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 items-stretch">
 <!-- Tarjeta 1: Sesión Individual -->
-<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 sm:p-6 lg:p-8 flex flex-col justify-between hover:border-outline-variant transition-all">
+<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 flex flex-col justify-between hover:border-outline-variant transition-all">
 <div>
-<div class="flex justify-between items-center mb-4">
-<span class="text-label-md font-label-md text-on-surface-variant uppercase tracking-wider">Plan Individual</span>
-<span class="text-xs px-2.5 py-0.5 rounded bg-surface-container text-on-surface-variant">1 a 1</span>
+<div class="flex justify-between items-center mb-3">
+<span class="text-xs sm:text-sm font-label-md text-on-surface-variant uppercase tracking-wider">Plan Individual</span>
+<span class="text-[10px] sm:text-xs px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">1 a 1</span>
 </div>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Sesión Individual</h3>
-<div class="my-3 sm:my-4 md:my-6">
-<span class="text-headline-lg font-headline-lg text-primary">Desde 36€</span>
-<span class="text-body-sm font-body-sm text-on-surface-variant"> / sesión</span>
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface">Sesión Individual</h3>
+<div class="my-3 sm:my-5">
+<span class="text-2xl sm:text-3xl md:text-4xl font-headline-lg font-bold text-primary">Desde 36€</span>
+<span class="text-xs sm:text-sm text-on-surface-variant"> / sesión</span>
 </div>
-<ul class="space-y-3 pt-4 border-t border-outline-variant/20 text-body-sm font-body-sm text-on-surface-variant">
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<ul class="space-y-2 sm:space-y-2.5 pt-3 border-t border-outline-variant/20 text-xs sm:text-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>Evaluación inicial de condición física</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>60 minutos de entrenamiento 1 a 1</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>Seguimiento de técnica en tiempo real</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>Espacio privado y libre de esperas</span>
 </li>
 </ul>
 </div>
-<div class="mt-8 pt-6 border-t border-outline-variant/20">
-<a class="w-full bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-on-surface hover:text-primary py-3 rounded text-label-lg font-label-lg tracking-wider text-center flex items-center justify-center gap-2 transition-all" href="https://wa.me/34614660388?text=Hola,%20quisiera%20consultar%20por%20la%20Sesión%20Individual" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-lg">chat</span>
+<div class="mt-5 sm:mt-7 pt-4 border-t border-outline-variant/20">
+<a class="w-full bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-on-surface hover:text-primary py-2.5 sm:py-3 rounded text-xs sm:text-sm font-label-lg tracking-wider text-center flex items-center justify-center gap-1.5 transition-all" href="https://wa.me/34614660388?text=Hola,%20quisiera%20consultar%20por%20la%20Sesión%20Individual" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
 <span>Consultar por WhatsApp</span>
 </a>
 </div>
 </div>
 <!-- Tarjeta 2: Bono Mensual (Destacada / Más Popular) -->
-<div class="bg-surface-container border-2 border-primary rounded-xl p-5 sm:p-6 lg:p-8 flex flex-col justify-between relative shadow-2xl neon-halo scale-[1.02]">
+<div class="bg-surface-container border-2 border-primary rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 flex flex-col justify-between relative shadow-2xl neon-halo md:scale-[1.02]">
 <!-- Badge Destacado -->
-<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-primary text-surface-container-lowest px-4 py-1 rounded text-label-sm font-label-sm uppercase font-bold tracking-widest shadow">
-              MÁS POPULAR · RECOMENDADO
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-surface-container-lowest px-3 py-0.5 rounded text-[10px] sm:text-xs font-label-sm uppercase font-bold tracking-widest shadow">
+              MÁS POPULAR
             </div>
 <div>
-<div class="flex justify-between items-center mb-4 mt-2">
-<span class="text-label-md font-label-md text-primary uppercase tracking-wider">Compromiso Total</span>
-<span class="text-xs px-2.5 py-0.5 rounded bg-primary/20 text-primary font-bold">Máximo Progreso</span>
+<div class="flex justify-between items-center mb-3 mt-1">
+<span class="text-xs sm:text-sm font-label-md text-primary uppercase tracking-wider">Compromiso Total</span>
+<span class="text-[10px] sm:text-xs px-2 py-0.5 rounded bg-primary/20 text-primary font-bold">Máximo Progreso</span>
 </div>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Bono Mensual</h3>
-<div class="my-3 sm:my-4 md:my-6">
-<span class="text-headline-lg font-headline-lg text-primary">Consultar tarifa</span>
-<span class="text-body-sm font-body-sm text-on-surface-variant"> / mes</span>
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface">Bono Mensual</h3>
+<div class="my-3 sm:my-5">
+<span class="text-xl sm:text-2xl md:text-3xl font-headline-lg font-bold text-primary">Consultar tarifa</span>
+<span class="text-xs sm:text-sm text-on-surface-variant"> / mes</span>
 </div>
-<ul class="space-y-3 pt-4 border-t border-outline-variant/30 text-body-sm font-body-sm text-on-surface">
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<ul class="space-y-2 sm:space-y-2.5 pt-3 border-t border-outline-variant/30 text-xs sm:text-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>Sesiones programadas fijas semanales</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
-<span>Control de evolución y mediciones corporales</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
+<span>Control de evolución y mediciones</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>Soporte continuo y dudas por WhatsApp</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>Planificación progresiva de cargas</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm sm:text-base">check_circle</span>
 <span>Prioridad en elección de franja horaria</span>
 </li>
 </ul>
 </div>
-<div class="mt-8 pt-6 border-t border-outline-variant/30">
-<a class="w-full bg-primary-container text-on-primary-container hover:bg-primary py-3.5 rounded text-label-lg font-label-lg tracking-wider font-bold text-center flex items-center justify-center gap-2 transition-all active:scale-[0.98]" href="https://wa.me/34614660388?text=Hola,%20quisiera%20información%20sobre%20el%20Bono%20Mensual" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-lg">chat</span>
+<div class="mt-5 sm:mt-7 pt-4 border-t border-outline-variant/30">
+<a class="w-full bg-primary-container text-on-primary-container hover:bg-primary py-2.5 sm:py-3.5 rounded text-xs sm:text-sm font-label-lg tracking-wider font-bold text-center flex items-center justify-center gap-1.5 transition-all active:scale-[0.98]" href="https://wa.me/34614660388?text=Hola,%20quisiera%20información%20sobre%20el%20Bono%20Mensual" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
 <span>Consultar por WhatsApp</span>
 </a>
 </div>
 </div>
 <!-- Tarjeta 3: Grupo Reducido -->
-<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 sm:p-6 lg:p-8 flex flex-col justify-between hover:border-outline-variant transition-all">
+<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 flex flex-col justify-between hover:border-outline-variant transition-all">
 <div>
-<div class="flex justify-between items-center mb-4">
-<span class="text-label-md font-label-md text-on-surface-variant uppercase tracking-wider">Dinámica Grupal</span>
-<span class="text-xs px-2.5 py-0.5 rounded bg-surface-container text-secondary">Máx. 4 pers.</span>
+<div class="flex justify-between items-center mb-3">
+<span class="text-xs sm:text-sm font-label-md text-on-surface-variant uppercase tracking-wider">Dinámica Grupal</span>
+<span class="text-[10px] sm:text-xs px-2 py-0.5 rounded bg-surface-container text-secondary">Máx. 4 pers.</span>
 </div>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Grupo Reducido</h3>
-<div class="my-3 sm:my-4 md:my-6">
-<span class="text-headline-lg font-headline-lg text-secondary">Consultar tarifa</span>
-<span class="text-body-sm font-body-sm text-on-surface-variant"> / mes</span>
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface">Grupo Reducido</h3>
+<div class="my-3 sm:my-5">
+<span class="text-xl sm:text-2xl md:text-3xl font-headline-lg font-bold text-secondary">Consultar tarifa</span>
+<span class="text-xs sm:text-sm text-on-surface-variant"> / mes</span>
 </div>
-<ul class="space-y-3 pt-4 border-t border-outline-variant/20 text-body-sm font-body-sm text-on-surface-variant">
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<ul class="space-y-2 sm:space-y-2.5 pt-3 border-t border-outline-variant/20 text-xs sm:text-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm sm:text-base">check_circle</span>
 <span>Máximo 4 personas por grupo de entreno</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
-<span>Dinamismo, motivación compartida y compañerismo</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm sm:text-base">check_circle</span>
+<span>Dinamismo, motivación y compañerismo</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
-<span>Plan de entrenamiento estructurado y adaptado</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm sm:text-base">check_circle</span>
+<span>Plan estructurado y adaptado</span>
 </li>
-<li class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
-<span>Supervisión constante de técnica por entrenador</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm sm:text-base">check_circle</span>
+<span>Supervisión constante de técnica</span>
 </li>
 </ul>
 </div>
-<div class="mt-8 pt-6 border-t border-outline-variant/20">
-<a class="w-full bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-secondary text-on-surface hover:text-secondary py-3 rounded text-label-lg font-label-lg tracking-wider text-center flex items-center justify-center gap-2 transition-all" href="https://wa.me/34614660388?text=Hola,%20quisiera%20consultar%20por%20los%20Grupos%20Reducidos" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-lg">chat</span>
+<div class="mt-5 sm:mt-7 pt-4 border-t border-outline-variant/20">
+<a class="w-full bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-secondary text-on-surface hover:text-secondary py-2.5 sm:py-3 rounded text-xs sm:text-sm font-label-lg tracking-wider text-center flex items-center justify-center gap-1.5 transition-all" href="https://wa.me/34614660388?text=Hola,%20quisiera%20consultar%20por%20los%20Grupos%20Reducidos" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
 <span>Consultar por WhatsApp</span>
 </a>
 </div>
 </div>
 </div>
-<!-- Caja de Información Adicional / Transparencia -->
-<div class="mt-12 bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 text-center max-w-2xl mx-auto flex items-center justify-center gap-3">
-<span class="material-symbols-outlined text-primary text-xl">info</span>
-<p class="text-body-sm font-body-sm text-on-surface-variant">
+<!-- Caja de Información Adicional -->
+<div class="mt-6 sm:mt-8 bg-surface-container-low border border-outline-variant/30 rounded-xl p-3 sm:p-4 text-center max-w-2xl mx-auto flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-primary text-base sm:text-lg flex-shrink-0">info</span>
+<p class="text-xs sm:text-sm text-on-surface-variant">
             Precios orientativos, tarifas exactas y bonos personalizados vía WhatsApp según número de días semanales y objetivo.
           </p>
 </div>
@@ -728,100 +716,102 @@
 <!-- ========================================== -->
 <section class="w-full hidden" id="page-equipo">
 <!-- Equipo Header -->
-<div class="bg-surface-container-low border-b border-outline-variant/20 py-6 sm:py-8 md:py-12 lg:py-16 text-center relative overflow-hidden">
-<div class="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-40 bg-secondary/15 rounded-full blur-[100px] pointer-events-none"></div>
-<div class="max-w-4xl mx-auto px-6 relative z-10">
-<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container border border-primary/30 rounded text-primary text-label-md font-label-md uppercase mb-3">
-<span class="material-symbols-outlined text-base">verified_user</span>
+<div class="bg-surface-container-low border-b border-outline-variant/20 py-8 sm:py-12 md:py-16 text-center relative overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-64 sm:w-80 md:w-96 h-28 sm:h-36 md:h-40 bg-secondary/15 rounded-full blur-[90px] pointer-events-none"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
+<div class="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-0.5 sm:py-1 bg-surface-container border border-primary/30 rounded text-primary text-[10px] sm:text-xs font-label-md uppercase mb-2">
+<span class="material-symbols-outlined text-sm sm:text-base">verified_user</span>
             PROFESIONALES CUALIFICADOS
           </div>
-<h1 class="text-2xl sm:text-3xl md:text-headline-lg font-headline-lg uppercase text-on-surface">NUESTRO EQUIPO</h1>
-<p class="text-body-lg font-body-lg text-on-surface-variant mt-3 max-w-2xl mx-auto">
+<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-headline-lg uppercase text-on-surface">NUESTRO EQUIPO</h1>
+<p class="text-xs sm:text-sm md:text-base lg:text-lg text-on-surface-variant mt-2 max-w-2xl mx-auto">
             Detrás de cada repetición y cada progreso hay profesionales apasionados y certificados dedicados a tu salud, fuerza y rendimiento.
           </p>
 </div>
 </div>
 <!-- Professionals Grid -->
-<div class="max-w-7xl mx-auto px-6 py-8 sm:py-10 md:py-14 lg:py-20">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 lg:gap-8 items-stretch">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10 md:py-16 lg:py-20">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-stretch">
 <!-- TARJETA 1: Francisco Javier Bazarot García -->
 <div class="bg-surface-container-low border border-outline-variant/30 rounded-xl overflow-hidden flex flex-col justify-between shadow-xl hover:border-primary/50 transition-all duration-200 group">
 <div>
-<div class="relative h-52 sm:h-64 md:h-80 lg:h-96 w-full overflow-hidden bg-surface-container-lowest">
-<img alt="Francisco Javier Bazarot García - Entrenador Personal &amp; Fundador B 308 Training" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjKZv4u15DJMjqd1NJwR6iUHOsfZlCCMnQLRQQKIpinqmE7eUaucDTMdHEN3RXjMDnhqvW7C9beNtCRVhSW9nbRUoVS2Vz-83w_HMJ0Ouk2bLhRbhXmOu4zRKVTlqZztbN1S60a2SWwFk2Hou-cETvb_unM5FVCE0fJmdIIrQvvP16f1X28a5lhWx4Whr2CncfVrs6_Lb-s47y009QM1u_8KecRGxd66Kdwqpq09XgPCgg9o1H1fTDSQ"/>
+<!-- Reduced Image Height for Compact Mobile Framing -->
+<div class="relative h-48 sm:h-60 md:h-72 lg:h-80 w-full overflow-hidden bg-surface-container-lowest">
+<img alt="Francisco Javier Bazarot García - Entrenador Personal &amp; Fundador B 308 Training" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida/AEtjO1Wvnlf-iixBRe_PIPiG7TrYHfvz1UaACXgtP8A_KQzaCdbD_eSnK1qi-5bPFMzuTacwKmVfQX6LrNmf-7pcDLd6pBxUfHhv5AmzDkIJN06C4cu5L0I85fCqQL95nsdlthkf3raoy5fuqufPgEg19zjh6IrFEFOaDrSmB8Lbyx0xmTDaK2ocVI02xgbr6lwfT8Tx8FHXSZCzZI9cNZuwY5EPfurtXdc1GC1iCY1u_Al5I8ZmVl8DNj3FMm1r"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
-<div class="absolute bottom-4 left-4 right-4">
-<span class="inline-block px-2.5 py-1 rounded bg-primary text-surface-container-lowest text-label-sm font-label-sm font-bold uppercase tracking-wider">
+<div class="absolute bottom-2.5 left-2.5 right-2.5 sm:bottom-3 sm:left-3 sm:right-3">
+<span class="inline-block px-2 py-0.5 sm:px-2.5 sm:py-1 rounded bg-primary text-surface-container-lowest text-[10px] sm:text-xs font-bold uppercase tracking-wider">
                     Entrenador Personal &amp; Fundador
                   </span>
 </div>
 </div>
-<div class="p-6">
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Francisco Javier Bazarot García</h3>
-<p class="text-label-md font-label-md text-primary mt-1">DIRECTOR TÉCNICO B 308</p>
-<p class="text-body-sm font-body-sm text-on-surface-variant mt-4 leading-relaxed">
+<div class="p-4 sm:p-5 md:p-6">
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface">Francisco Javier Bazarot García</h3>
+<p class="text-xs sm:text-sm font-label-md text-primary mt-0.5 sm:mt-1">DIRECTOR TÉCNICO B 308</p>
+<p class="text-xs sm:text-sm text-on-surface-variant mt-2 sm:mt-3 leading-relaxed">
                   Especialista en entrenamiento de fuerza funcional, readaptación y composición corporal. Más de 8 años guiando a deportistas y personas hacia su mejor versión en grupos reducidos y 1 a 1 en Sevilla.
                 </p>
 </div>
 </div>
-<div class="p-6 pt-0 border-t border-outline-variant/20 flex items-center justify-between gap-3 mt-4">
-<a class="p-2.5 rounded bg-surface-container hover:bg-surface-container-high text-primary border border-outline-variant/30 transition-colors" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank" title="Instagram">
-<span class="material-symbols-outlined text-xl">photo_camera</span>
+<div class="p-4 sm:p-5 md:p-6 pt-0 border-t border-outline-variant/20 flex items-center justify-between gap-2.5 mt-2">
+<a class="p-2 sm:p-2.5 rounded bg-surface-container hover:bg-surface-container-high text-primary border border-outline-variant/30 transition-colors" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank" title="Instagram">
+<span class="material-symbols-outlined text-lg sm:text-xl">photo_camera</span>
 </a>
-<a class="flex-1 bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-on-surface hover:text-primary py-2.5 px-4 rounded text-center text-label-md font-label-md tracking-wider flex items-center justify-center gap-2 transition-all" href="https://wa.me/34614660388?text=Hola%20Francisco,%20me%20gustaría%20entrenar%20contigo" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-base">chat</span>
+<a class="flex-1 bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-on-surface hover:text-primary py-2 sm:py-2.5 px-3 rounded text-center text-xs sm:text-sm font-label-md tracking-wider flex items-center justify-center gap-1.5 transition-all" href="https://wa.me/34614660388?text=Hola%20Francisco,%20me%20gustaría%20entrenar%20contigo" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-sm sm:text-base">chat</span>
 <span>Contactar</span>
 </a>
 </div>
 </div>
-<!-- TARJETA 2: Natalia Lozano (Diferenciada visualmente para nutrición) -->
+<!-- TARJETA 2: Natalia Lozano -->
 <div class="bg-surface-container-low border-2 border-secondary/70 rounded-xl overflow-hidden flex flex-col justify-between shadow-2xl relative group neon-border-pulse">
 <!-- Glow Accent -->
-<div class="absolute -top-12 -right-12 w-32 h-32 bg-secondary/15 rounded-full blur-2xl pointer-events-none"></div>
+<div class="absolute -top-12 -right-12 w-28 h-28 bg-secondary/15 rounded-full blur-2xl pointer-events-none"></div>
 <div>
-<div class="relative h-52 sm:h-64 md:h-80 lg:h-96 w-full overflow-hidden bg-surface-container-lowest">
-<img alt="Natalia Lozano - Colaboradora Nutrición Deportiva B 308 Training" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9kx2DfvaC7zk_4J1ZQ0h6KG1Kpfi23OWK9QJkIJ_qj1bqQ1QM-fo39KaAH9WhErbAhxZAnIHCa_dlzYcy3MjpwMU79oSaaj5Or98XU7_hWmbmH6rHO3a-WdUA-dF26JYlWH9nZx-sxHOF5dq45OTPpLCgUKaEj5D8Oh0KOyjBYOq2jOrQsr_tTZEablKoaI9YlQmy4NtIFUrbt6vBvHuIU1Ned-iwYhT6-S_BhqjKj6cYWmXZpS_zUQ"/>
+<!-- Reduced Image Height for Compact Mobile Framing -->
+<div class="relative h-48 sm:h-60 md:h-72 lg:h-80 w-full overflow-hidden bg-surface-container-lowest">
+<img alt="Natalia Lozano - Colaboradora Nutrición Deportiva B 308 Training" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida/AEtjO1VGNLCgWczFue6Nmg0Q04oY16l4wtTDcnFIskDuLjEuuLBsgHUGf-4UDHwn6beF1YNPekQ0fJpru_bsyPigfVcoznblzGHHgKSxz8-TwjaUfRmC-kiyDvAFKZiZQJHT4GHgikjKie07sct8SJXodHwv2koKGM5QLCSF2Z2pp59zKJXThrOK-g2GlaksuQ4EkuwiB_052ZrebArSTbP5crsM9qrLNDDtmm5VO1Ha6tPcsvtFD5TdcBqgJt_j"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
-<div class="absolute bottom-4 left-4 right-4">
-<span class="inline-block px-2.5 py-1 rounded bg-secondary text-surface-container-lowest text-label-sm font-label-sm font-bold uppercase tracking-wider">
+<div class="absolute bottom-2.5 left-2.5 right-2.5 sm:bottom-3 sm:left-3 sm:right-3">
+<span class="inline-block px-2 py-0.5 sm:px-2.5 sm:py-1 rounded bg-secondary text-surface-container-lowest text-[10px] sm:text-xs font-bold uppercase tracking-wider">
                     Colaboradora — Nutrición Deportiva
                   </span>
 </div>
 </div>
-<div class="p-6">
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Natalia Lozano</h3>
-<p class="text-label-md font-label-md text-secondary mt-1">DIETISTA-NUTRICIONISTA</p>
-<p class="text-body-sm font-body-sm text-on-surface-variant mt-4 leading-relaxed">
+<div class="p-4 sm:p-5 md:p-6">
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface">Natalia Lozano</h3>
+<p class="text-xs sm:text-sm font-label-md text-secondary mt-0.5 sm:mt-1">DIETISTA-NUTRICIONISTA</p>
+<p class="text-xs sm:text-sm text-on-surface-variant mt-2 sm:mt-3 leading-relaxed">
                   Dietista-Nutricionista especializada en optimización del rendimiento y recomposición corporal. Planes nutricionales 100% personalizados y sostenibles adaptados a tus entrenamientos y gasto calórico.
                 </p>
 </div>
 </div>
-<div class="p-6 pt-0 border-t border-outline-variant/20 flex items-center justify-between gap-3 mt-4">
-<a class="p-2.5 rounded bg-surface-container hover:bg-surface-container-high text-secondary border border-secondary/30 transition-colors" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank" title="Instagram">
-<span class="material-symbols-outlined text-xl">photo_camera</span>
+<div class="p-4 sm:p-5 md:p-6 pt-0 border-t border-outline-variant/20 flex items-center justify-between gap-2.5 mt-2">
+<a class="p-2 sm:p-2.5 rounded bg-surface-container hover:bg-surface-container-high text-secondary border border-secondary/30 transition-colors" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank" title="Instagram">
+<span class="material-symbols-outlined text-lg sm:text-xl">photo_camera</span>
 </a>
-<a class="flex-1 bg-secondary text-surface-container-lowest hover:bg-secondary-fixed py-2.5 px-4 rounded text-center text-label-md font-label-md font-bold tracking-wider flex items-center justify-center gap-2 transition-all" href="https://wa.me/34614660388?text=Hola,%20quisiera%20consulta%20con%20Natalia%20Lozano%20(Nutrición)" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-base">chat</span>
+<a class="flex-1 bg-secondary text-surface-container-lowest hover:bg-secondary-fixed py-2 sm:py-2.5 px-3 rounded text-center text-xs sm:text-sm font-label-md font-bold tracking-wider flex items-center justify-center gap-1.5 transition-all" href="https://wa.me/34614660388?text=Hola,%20quisiera%20consulta%20con%20Natalia%20Lozano%20(Nutrición)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-sm sm:text-base">chat</span>
 <span>WhatsApp 614 66 03 88</span>
 </a>
 </div>
 </div>
-<!-- TARJETA 3: Próximamente (Placeholder Futuros Profesionales) -->
-<div class="bg-surface-container-low/40 border-2 border-dashed border-outline-variant/40 rounded-xl p-5 sm:p-6 lg:p-8 flex flex-col justify-between items-center text-center relative overflow-hidden group hover:border-primary/40 transition-colors">
+<!-- TARJETA 3: Próximamente -->
+<div class="bg-surface-container-low/40 border-2 border-dashed border-outline-variant/40 rounded-xl p-5 sm:p-6 md:p-8 flex flex-col justify-between items-center text-center relative overflow-hidden group hover:border-primary/40 transition-colors">
 <div class="my-auto flex flex-col items-center">
-<div class="w-20 h-20 rounded-full bg-surface-container border border-outline-variant/40 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined text-3xl">add_circle</span>
+<div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-surface-container border border-outline-variant/40 flex items-center justify-center text-primary mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl sm:text-3xl">add_circle</span>
 </div>
-<span class="inline-block px-3 py-1 rounded bg-surface-container text-on-surface-variant text-label-sm font-label-sm font-bold uppercase tracking-widest mb-3">
+<span class="inline-block px-2.5 py-0.5 rounded bg-surface-container text-on-surface-variant text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-2">
                 Próximamente
               </span>
-<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Equipo en Crecimiento</h3>
-<p class="text-body-sm font-body-sm text-on-surface-variant mt-4 max-w-xs leading-relaxed">
+<h3 class="text-base sm:text-lg md:text-xl font-headline-md uppercase text-on-surface">Equipo en Crecimiento</h3>
+<p class="text-xs sm:text-sm text-on-surface-variant mt-2 max-w-xs leading-relaxed">
                 Ampliando nuestro equipo multidisciplinar para brindarte el mejor servicio integral de salud, fisioterapia y deporte en Sevilla.
               </p>
 </div>
-<div class="w-full pt-6 border-t border-outline-variant/20 mt-6">
-<a class="w-full inline-block bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary py-2.5 px-4 rounded text-label-md font-label-md tracking-wider transition-colors" href="https://wa.me/34614660388?text=Hola,%20me%20gustaría%20presentar%20mi%20perfil%20profesional" rel="noopener noreferrer" target="_blank">
+<div class="w-full pt-4 border-t border-outline-variant/20 mt-4">
+<a class="w-full inline-block bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary py-2 sm:py-2.5 px-3 rounded text-xs sm:text-sm font-label-md tracking-wider transition-colors" href="https://wa.me/34614660388?text=Hola,%20me%20gustaría%20presentar%20mi%20perfil%20profesional" rel="noopener noreferrer" target="_blank">
                 ¿Eres profesional de la salud? Contáctanos
               </a>
 </div>
@@ -830,61 +820,61 @@
 </div>
 </section>
 </main>
-<!-- FOOTER (Shared Component Exact Blueprint) -->
-<footer class="w-full bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 flat no shadows mt-auto">
-<div class="max-w-7xl mx-auto px-6 py-8 sm:py-10 md:py-12 lg:py-16 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+<!-- FOOTER -->
+<footer class="w-full bg-surface-container-lowest border-t border-outline-variant/20 mt-auto">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 md:py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-12">
 <!-- Brand & Mission Column -->
-<div class="md:col-span-1 space-y-4">
+<div class="sm:col-span-2 md:col-span-1 space-y-2.5 sm:space-y-4">
 <a class="inline-block" href="javascript:void(0)" onclick="switchTab('inicio')">
-<img alt="B 308 Training Logo" class="h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPH61kd_6sfCMjKXyqmQMjP8OYl2rdceUGkF4z-h3Bog-gjrFr8Jae_UG7XAJERmCRFNpB2FZm_9ZiHsFyCMaNcplzzWouKOOr9TDa0u_HE5i6-TcK6asMGAp_lYOcGb9QcpCBO8UNYU2mucxoHpkQGNNYlOjyHmCB_2MVIktwBk3Vj9nnSYrxzpUogO5AQK6y5dbp6wgCU7tTtTd7oS4WBv0kV0C06kxq10e2T2N8Z49o4SJ5-5-Esp6lDyOAmmOXbS0"/>
+<img alt="B 308 Training Logo" class="h-9 sm:h-11 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTitYR8Q9w4Zr5SWiJCK2X-wBmK_m6A01G6YTsFDCA3cb1wGz7vaDCeDA3Q2ORNvFIf7tlkBUVv2t30BqPZwS3FUyqH-4ipcf4tnluj5oGpzLygjUOpVBQTyRfJq0v2yXtrc3W6oYkx58REYmP9svKFu6zdXTrS_h8Nys6z2JQofSodRAZMNphKdH-cK_nSlVgQxysAZzQIA_8BOVdnrGs5-rEG8UmnKkTH9oiLJ9JkNkWF1Z9STyC9ZD3goRMdKJz-cE"/>
 </a>
-<p class="text-headline-lg font-headline-lg font-bold tracking-tight text-on-surface dark:text-on-surface">
+<p class="text-lg sm:text-xl font-headline-lg font-bold tracking-tight text-on-surface">
           B 308 TRAINING
         </p>
-<p class="text-body-sm font-body-sm text-on-surface-variant">
+<p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
           Centro de entrenamiento personal, grupos reducidos y nutrición deportiva en Sevilla. Disciplina, técnica y salud.
         </p>
 </div>
 <!-- Quick Nav Links -->
-<div class="space-y-3">
-<p class="text-headline-sm font-headline-sm text-on-surface uppercase">Navegación</p>
-<ul class="space-y-2 text-label-md font-label-md">
+<div class="space-y-2 sm:space-y-3">
+<p class="text-sm sm:text-base font-headline-sm text-on-surface uppercase font-bold">Navegación</p>
+<ul class="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
 <li>
-<button class="text-on-surface-variant hover:text-primary text-body-sm transition-colors" onclick="switchTab('inicio')">
+<button class="text-on-surface-variant hover:text-primary transition-colors" onclick="switchTab('inicio')">
               Inicio
             </button>
 </li>
 <li>
-<button class="text-on-surface-variant hover:text-primary text-body-sm transition-colors" onclick="switchTab('reservas')">
+<button class="text-on-surface-variant hover:text-primary transition-colors" onclick="switchTab('reservas')">
               Reservas y Tarifas
             </button>
 </li>
 <li>
-<button class="text-on-surface-variant hover:text-primary text-body-sm transition-colors" onclick="switchTab('equipo')">
+<button class="text-on-surface-variant hover:text-primary transition-colors" onclick="switchTab('equipo')">
               Nuestro Equipo
             </button>
 </li>
 <li>
-<button class="text-on-surface-variant hover:text-primary text-body-sm transition-colors" onclick="switchTab('inicio'); document.getElementById('page-inicio').scrollIntoView();">
+<button class="text-on-surface-variant hover:text-primary transition-colors" onclick="switchTab('inicio'); document.getElementById('page-inicio').scrollIntoView();">
               Horarios y Clases
             </button>
 </li>
 </ul>
 </div>
 <!-- Contact & Facility Info -->
-<div class="space-y-3">
-<p class="text-headline-sm font-headline-sm text-on-surface uppercase">Contacto Directo</p>
-<div class="space-y-2 text-body-sm font-body-sm text-on-surface-variant">
-<p class="flex items-start gap-2">
-<span class="material-symbols-outlined text-primary text-sm mt-1">pin_drop</span>
+<div class="space-y-2 sm:space-y-3">
+<p class="text-sm sm:text-base font-headline-sm text-on-surface uppercase font-bold">Contacto Directo</p>
+<div class="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-on-surface-variant">
+<p class="flex items-start gap-1.5 sm:gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5 flex-shrink-0">pin_drop</span>
 <span>Calle Montoro 6, 41006 Sevilla (Polígono La Negrilla)</span>
 </p>
-<p class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-sm">chat</span>
+<p class="flex items-center gap-1.5 sm:gap-2">
+<span class="material-symbols-outlined text-primary text-sm flex-shrink-0">chat</span>
 <span>WhatsApp: 614 66 03 88</span>
 </p>
-<p class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-sm">photo_camera</span>
+<p class="flex items-center gap-1.5 sm:gap-2">
+<span class="material-symbols-outlined text-primary text-sm flex-shrink-0">photo_camera</span>
 <a class="hover:text-primary transition-colors" href="https://instagram.com/b308training" rel="noopener noreferrer" target="_blank">
               Instagram: @b308training
             </a>
@@ -892,28 +882,28 @@
 </div>
 </div>
 <!-- Official Booking & Legal Links -->
-<div class="space-y-3">
-<p class="text-headline-sm font-headline-sm text-on-surface uppercase">Reservas Online</p>
-<p class="text-body-sm font-body-sm text-on-surface-variant">
+<div class="space-y-2 sm:space-y-3">
+<p class="text-sm sm:text-base font-headline-sm text-on-surface uppercase font-bold">Reservas Online</p>
+<p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
           Agenda tus sesiones de forma instantánea a través de nuestra plataforma oficial Booksy.
         </p>
-<div class="pt-2">
-<a class="inline-flex items-center gap-2 bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-primary px-4 py-2.5 rounded text-label-md font-label-md transition-all" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
+<div class="pt-1">
+<a class="inline-flex items-center gap-1.5 bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 hover:border-primary text-primary px-3 sm:px-4 py-1.5 sm:py-2 rounded text-xs sm:text-sm font-label-md transition-all" href="https://booksy.com/es-es/190181_b-308-training_deporte-y-salud_29971_sevilla" rel="noopener noreferrer" target="_blank">
 <span class="material-symbols-outlined text-base">event_available</span>
 <span>Acceder a Booksy</span>
 </a>
 </div>
-<div class="pt-2 flex flex-col gap-1 text-label-sm font-label-sm text-on-surface-variant/70">
+<div class="pt-1 flex flex-col gap-0.5 text-[11px] sm:text-xs text-on-surface-variant/70">
 <a class="hover:text-on-surface transition-colors" href="javascript:void(0)">Aviso Legal</a>
 <a class="hover:text-on-surface transition-colors" href="javascript:void(0)">Política de Privacidad</a>
 </div>
 </div>
 </div>
 <!-- Copyright Bar -->
-<div class="max-w-7xl mx-auto px-6 py-6 border-t border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
-<p>© 2025 B 308 Training. Calle Montoro 6, 41006 Sevilla (Polígono La Negrilla). Todos los derechos reservados.</p>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 border-t border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between text-xs text-on-surface-variant text-center sm:text-left">
+<p>© 2025 B 308 Training. Calle Montoro 6, Sevilla. Todos los derechos reservados.</p>
 <div class="flex items-center gap-4 mt-2 sm:mt-0">
-<span class="text-primary font-semibold text-xs tracking-wider">ENTRENAMIENTO PERSONAL · SEVILLA</span>
+<span class="text-primary font-semibold tracking-wider text-[11px] sm:text-xs">ENTRENAMIENTO PERSONAL · SEVILLA</span>
 </div>
 </div>
 </footer>
